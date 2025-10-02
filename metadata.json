@@ -1,0 +1,5 @@
+{
+  "name": "Nakly",
+  "description": "Nakly is a backtesting and LLM-benchmarking platform for global economic forecasting. It enables users to configure and run backtests across 196 countries using data from Trading Economics, World Bank, IMF, and FRED; benchmark multiple LLMs; visualize results with interactive charts; and generate AI insights.",
+  "requestFramePermissions": []
+}

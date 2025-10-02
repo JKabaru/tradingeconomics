@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nakly - Economic Forecasting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'theme-background': '#121212',
+              'theme-surface': '#1e1e1e',
+              'theme-border': '#424242',
+              'theme-text-primary': '#E0E0E0',
+              'theme-text-secondary': '#B0B0B0',
+              'theme-accent': '#4A90E2',
+              'theme-accent-hover': '#60A5FA',
+              'theme-destructive': '#B91C1C',
+              'theme-success': '#16A34A',
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      body {
+        background-color: #121212;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react": "https://esm.sh/react@18.3.1",
+    "@google/genai": "https://esm.sh/@google/genai@0.14.0",
+    "recharts": "https://esm.sh/recharts@2.12.7",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="index.css">
+</head>
+  <body class="bg-theme-background text-theme-text-primary font-sans">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
