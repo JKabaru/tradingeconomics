@@ -67,7 +67,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, setCurrentPage, s
           </ul>
         </nav>
         <div className="p-4 border-t border-theme-border text-center text-xs text-gray-500">
-          <p>&copy; 2024 Nakly Platform</p>
+          <p>&copy; 2025 Nakly Platform</p>
           <p>Prototype Version</p>
         </div>
       </aside>
